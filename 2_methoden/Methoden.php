@@ -7,5 +7,6 @@ class Methoden {
 }
 $objekt = new Methoden();
 $objekt->addieren();
+echo "<br>";
 $objekt2 = new Methoden();
 $objekt2->addieren();
