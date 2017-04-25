@@ -2,7 +2,7 @@
 
 class This {
 
-    const KEYPATH = "de.coding";
+    const KEYPATH = "www.verdi-fes.de";
 
     public $name;
 
@@ -18,3 +18,4 @@ class This {
 $objekt = new This();
 $objekt->name = "Ralf";
 echo $objekt->getName() . "<br>";
+echo $objekt->getKeypath();
