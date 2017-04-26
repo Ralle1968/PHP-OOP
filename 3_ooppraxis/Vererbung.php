@@ -14,7 +14,7 @@ class Rennauto extends Auto {
     }
 
     public function beschleunigen() {
-        parent::beschleunigen();
+        // parent::beschleunigen();
         $this->turboanschalten();
     }
 }
